@@ -1,4 +1,33 @@
-.venv/
+# Python bytecode/caches
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
 .DS_Store
+
+# Streamlit config/cache
+.streamlit/
+
+# Log files
+*.log
+
+# Dynamically generated model and data caches (artifacts of runs)
+models/*.pkl
+data/*_cache.csv
+
+# Output results
+results/predictions.csv
+results/metrics.csv
+results/evaluation.json
+results/plots/*.png
